@@ -77,11 +77,11 @@ function draw() {
     }*/
 
     // vertical wrap
-    if (f.x < -f.size) {
-      f.x = width + f.size;
+    if (f.y > height) {
+      f.y = 0;
     }
     if (f.y < -f.size) {
-      f.y = height + f.size;
+      f.y = height - f.size + 50;
     }
     /* 
     if() {do something}
@@ -104,8 +104,8 @@ function mousePressed() {
   fishes.push({
     x: mouseX,
     y: mouseY,
-    vx: random(-3, 3) || 1, // avoid 0
-    vy: random(-2, 2),
+    vx: random(-3, 10) || 1, // avoid 0
+    vy: random(-2, 20),
     size: random(50, 150),
     c: color(random(255), random(255), random(255)),
   });

@@ -35,7 +35,7 @@ function draw() {
 
     // draw
     tint(m.c);
-    image(fish, m.x - 80, m.y - 40);
+    image(fish, m.x - 80, m.y - 40, m.size + 100, m.size);
   }
 }
 
@@ -45,7 +45,7 @@ function mousePressed() {
     y: mouseY,
     vx: random(-2, 2),
     vy: random(-2, 2),
-    size: random(10, 40),
+    size: random(50, 150),
     c: color(random(255), random(255), random(255)),
   });
 }

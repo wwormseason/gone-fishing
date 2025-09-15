@@ -46,7 +46,6 @@ function draw() {
     yay.play();
     if (checkS < 150) {
       checkS += 15;
-      console.log(checkS);
     }
     noLoop();
   }

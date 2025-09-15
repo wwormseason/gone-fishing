@@ -24,10 +24,10 @@ function draw() {
   background(65, 107, 223);
   for (let d of fishes) {
     tint(d.c);
-    image(fish, d.x, d.y);
+    image(fish, d.x, d.y, d.size + 100, d.size);
   }
 
-  setTimeout(yayFunc, 1000);
+  setTimeout(yayFunc, 5000);
 
   function yayFunc() {
     image(check, 230, 70, checkS, checkS);
@@ -43,7 +43,7 @@ function mousePressed() {
   const d = {
     x: random(width),
     y: random(height),
-    size: random(10, 40),
+    size: random(50, 150),
     c: color(random(255), random(255), random(255)),
   };
   fishes.push(d);

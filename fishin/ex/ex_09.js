@@ -8,7 +8,9 @@ let fishes = [];
 let checkS = 10;
 
 function preload() {
-  fish = loadImage("/assets/ex5a/fish.png");
+  fish = loadImage("../assets/ex5a/fish.png");
+  check = loadImage("../assets/check.png");
+  yay = loadSound("../assets/yay.mp3");
 }
 
 function setup() {
@@ -36,6 +38,17 @@ function draw() {
     // draw
     tint(m.c);
     image(fish, m.x - 80, m.y - 40, m.size + 100, m.size);
+  }
+
+  setTimeout(yayFunc, 5000);
+
+  function yayFunc() {
+    image(check, 230, 70, checkS, checkS);
+    yay.play();
+    if (checkS < 150) {
+      checkS += 15;
+    }
+    noLoop();
   }
 }
 

@@ -9,14 +9,14 @@ let cloudX = 50;
 let checkS = 10;
 
 function preload() {
-  cloud0 = loadImage("/assets/ex1/cloud.png");
-  cloud1 = loadImage("/assets/ex1/cloud.png");
-  cloud2 = loadImage("/assets/ex1/cloud.png");
-  cloud3 = loadImage("/assets/ex1/cloud.png");
-  cloud4 = loadImage("/assets/ex1/cloud.png");
-  sun = loadImage("/assets/ex1/sun.png");
-  check = loadImage("/assets/check.png");
-  yay = loadSound("/assets/yay.mp3");
+  cloud0 = loadImage("../assets/ex1/cloud.png");
+  cloud1 = loadImage("../assets/ex1/cloud.png");
+  cloud2 = loadImage("../assets/ex1/cloud.png");
+  cloud3 = loadImage("../assets/ex1/cloud.png");
+  cloud4 = loadImage("../assets/ex1/cloud.png");
+  sun = loadImage("../assets/ex1/sun.png");
+  check = loadImage("../assets/check.png");
+  yay = loadSound("../assets/yay.mp3");
 }
 
 function setup() {

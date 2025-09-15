@@ -4,17 +4,17 @@ let i = 0;
 let checkS = 10;
 
 function preload() {
-  dock = loadImage("/assets/ex4/dock.jpeg");
+  dock = loadImage("../assets/ex4/dock.jpeg");
 
-  bag = loadImage("/assets/ex2/bag.webp");
-  boots = loadImage("/assets/ex2/boots.webp");
-  bucket = loadImage("/assets/ex2/bucket.png");
-  hat = loadImage("/assets/ex2/hat.png");
-  jacket = loadImage("/assets/ex2/life_jacket.webp");
-  rod = loadImage("/assets/ex2/rod.png");
-  tackle = loadImage("/assets/ex2/tackle_box.png");
-  check = loadImage("/assets/check.png");
-  yay = loadSound("/assets/yay.mp3");
+  bag = loadImage("../assets/ex2/bag.webp");
+  boots = loadImage("../assets/ex2/boots.webp");
+  bucket = loadImage("../assets/ex2/bucket.png");
+  hat = loadImage("../assets/ex2/hat.png");
+  jacket = loadImage("../assets/ex2/life_jacket.webp");
+  rod = loadImage("../assets/ex2/rod.png");
+  tackle = loadImage("../assets/ex2/tackle_box.png");
+  check = loadImage("../assets/check.png");
+  yay = loadSound("../assets/yay.mp3");
 }
 
 function setup() {

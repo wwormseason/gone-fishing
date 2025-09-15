@@ -12,8 +12,8 @@ let line_move = 5;
 let checkS = 10;
 
 function preload() {
-  check = loadImage("/assets/check.png");
-  yay = loadSound("/assets/yay.mp3");
+  check = loadImage("../assets/check.png");
+  yay = loadSound("../assets/yay.mp3");
 }
 
 function setup() {

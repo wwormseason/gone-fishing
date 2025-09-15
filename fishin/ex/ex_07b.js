@@ -15,9 +15,9 @@ let tr = 255,
 let checkS = 10;
 
 function preload() {
-  fish = loadImage("/assets/ex5a/fish.png");
-  check = loadImage("/assets/check.png");
-  yay = loadSound("/assets/yay.mp3");
+  fish = loadImage("../assets/ex5a/fish.png");
+  check = loadImage("../assets/check.png");
+  yay = loadSound("../assets/yay.mp3");
 }
 
 function setup() {

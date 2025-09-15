@@ -11,10 +11,10 @@ const d = 40; // diameter
 let checkS = 10;
 
 function preload() {
-  hook = loadImage("/assets/ex5b/hook_line.png");
-  fish = loadImage("/assets/ex5a/fish.png");
-  check = loadImage("/assets/check.png");
-  yay = loadSound("/assets/yay.mp3");
+  hook = loadImage("../assets/ex5b/hook_line.png");
+  fish = loadImage("../assets/ex5a/fish.png");
+  check = loadImage("../assets/check.png");
+  yay = loadSound("../assets/yay.mp3");
 }
 
 function setup() {

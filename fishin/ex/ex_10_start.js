@@ -15,7 +15,7 @@ and you can press r to reset.
 let fishes = [];
 
 function preload() {
-  fish = loadImage("/assets/ex5a/fish.png");
+  fish = loadImage("../assets/ex5a/fish.png");
 }
 
 function setup() {

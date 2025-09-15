@@ -1,0 +1,23 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+canvas {
+  display: block;
+}
+
+#next {
+  width: 5rem;
+  position: absolute;
+  left: 535;
+  top: 400;
+}
+
+#back {
+  width: 5rem;
+  position: absolute;
+  left: -10;
+  top: 400;
+}
